@@ -21,7 +21,7 @@ namespace kmu_cs_38324 {
     }
 
     private int SomeCalc(int lhs, int rhs) {
-      return lhs + rhs;
+      return lhs / 1 + rhs / 1;
     }
   }
 }
