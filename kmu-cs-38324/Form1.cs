@@ -19,5 +19,9 @@ namespace kmu_cs_38324 {
     private void BtnSayHi_Click(object sender, EventArgs e) {
       Console.WriteLine("안녕, 세상!!");
     }
+
+    private int SomeCalc(int lhs, int rhs) {
+      return lhs + rhs;
+    }
   }
 }
