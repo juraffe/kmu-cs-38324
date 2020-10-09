@@ -9,9 +9,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace kmu_cs_38324 {
+
   public partial class Form1 : Form {
+
     public Form1() {
       InitializeComponent();
+    }
+
+    private void BtnSayHi_Click(object sender, EventArgs e) {
+      Console.WriteLine("Hello, World!!");
     }
   }
 }
