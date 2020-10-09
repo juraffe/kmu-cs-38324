@@ -33,3 +33,27 @@
     모든 Commit은 History를 통해 보여주며 Local 상태와 Remote 상태를 개별적으로 확인할 수 있습니다.
 
     ![Github history](./images/github_web_history.png)
+
+- 추가 과제
+
+  - Conflict 시나리오 설명
+
+    ![브런치 History](./images/branches_history.png)
+
+    ```main```으로부터 ```Linux```, ```macos```라는 2개의 브런치를 생성하며 각각 서로 다른 방식으로 SomeCalc 메소드를 수정한다. 이후 Linux, macos 브런치를 main 브런치로 병합하고 발생한 충돌을 해결한다.
+
+  - Visual studio merge tool 사용 설명 및 캡쳐
+
+    ![충돌 발생](./images/conflicts.png)
+
+    Merge를 진행하며 ```conflict(이하 충돌)```가 발생하면 Visual studio github 탭에서 사진과 같이 충돌이 발생했다는 메세지와 버튼이 발생한다. 버튼을 누르면 어떤 파일에서 무슨 행에서 충돌이 발생했는지 알려주며 ```merge 버튼```을 눌러 병합을 수행한다.
+
+    ![Visual studio merge tool](./images/merge_tool.png)
+
+    Merge 버튼을 누르면 위 사진과 같은 현재 브런치에서의 코드와 충돌이 발생된 다른쪽의 소스코드가 보이며 아래는 현재 소스코드의 상태를 보여준다. 행의 왼쪽에 체크박스가 생긴다. 이 체크박스를 눌러 원하는 코드를 선택하거나 직접 수정할 수 있다. 마지막으로 상단의 ```Accept Merge```버튼을 눌러 병합된 최종 코드를 반영한다.
+
+    이후 최종적으로 Commit후 Push를 하게 되면 무사히 원격 저장소에도 저장되게 된다.
+
+- 느낀 점
+
+형성 관리 도구는 팀 프로젝트에서 선택사항이 아닌 필수사항인 만큼 익숙해져야 하며 이번 과제를 통해 Git에 실습할 수 있는 주제가 생겨 매우 뿌듯합니다. 또한 개인 프로젝트인 경우 쉽게 경험하지 못하는 충돌이라는 개념을 학습하기 위한 기회여서 많은것을 배우게 되었습니다.
